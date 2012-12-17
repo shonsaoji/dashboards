@@ -77,7 +77,8 @@ function drawPieChart() {
         'pieSliceText': 'label',
         'backgroundColor': '#f5f5f5',
         'fontName': "Helvetica Neue, Helvetica, Arial, Kreon, sans-serif",
-        'fontSize': 14
+        'fontSize': 14,
+        'is3D': true
         
       },
       // Instruct the piechart to use colums 0 (Name) and 3 (Donuts Eaten)
