@@ -56,7 +56,7 @@
 
 		  <div class="tab-pane fade" id="timeline">
 	        <div id="timeline-dashboard" style="width:968px; height:512px">
-	        	<div></div>
+	        	
 	        </div>
 		  </div>
       

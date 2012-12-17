@@ -12,41 +12,41 @@ function drawMotionChart() {
     ['Panvel', new Date(2012,1,1), 'GT 1100', 2000, 1500],
     ['Ghaziabad', new Date(2012,1,1), 'GL 310', 1000, 2000],
 
-    ['Chakan', new Date(2012,1,2), 'GR 3400', 400, 100],
-    ['Panvel', new Date(2012,1,2), 'GT 1100', 570, 2500],
-    ['Ghaziabad', new Date(2012,1,2), 'GL 310', 2100, 150],
+    ['Chakan', new Date(2012,1,2), 'GR 3400', 400, 1200],
+    ['Panvel', new Date(2012,1,2), 'GT 1100', 2570, 2500],
+    ['Ghaziabad', new Date(2012,1,2), 'GL 310', 2100, 2150],
 
-    ['Chakan', new Date(2012,1,3), 'GR 3400', 1835, 2410],
-    ['Panvel', new Date(2012,1,3), 'GT 1100', 4942, 1497],
-    ['Ghaziabad', new Date(2012,1,3), 'GL 310', 2474, 1672],
+    ['Chakan', new Date(2012,1,3), 'GR 3400', 835, 2410],
+    ['Panvel', new Date(2012,1,3), 'GT 1100', 2942, 3297],
+    ['Ghaziabad', new Date(2012,1,3), 'GL 310', 2474, 2672],
 
-    ['Chakan', new Date(2012,1,4), 'GR 3400', 2214, 2705],
-    ['Panvel', new Date(2012,1,4), 'GT 1100', 746, 4933],
-    ['Ghaziabad', new Date(2012,1,4), 'GL 310', 1265, 747],
+    ['Chakan', new Date(2012,1,4), 'GR 3400', 914, 2705],
+    ['Panvel', new Date(2012,1,4), 'GT 1100', 1746, 1933],
+    ['Ghaziabad', new Date(2012,1,4), 'GL 310', 1665, 1747],
 
-    ['Chakan', new Date(2012,1,5), 'GR 3400', 843, 2003],
-    ['Panvel', new Date(2012,1,5), 'GT 1100', 4205, 4381],
-    ['Ghaziabad', new Date(2012,1,5), 'GL 310', 2628, 4356],
+    ['Chakan', new Date(2012,1,5), 'GR 3400', 843, 2503],
+    ['Panvel', new Date(2012,1,5), 'GT 1100', 2205, 2381],
+    ['Ghaziabad', new Date(2012,1,5), 'GL 310', 2628, 3356],
 
-    ['Chakan', new Date(2012,1,6), 'GR 3400', 3643, 4315],
-    ['Panvel', new Date(2012,1,6), 'GT 1100', 576, 3309],
-    ['Ghaziabad', new Date(2012,1,6), 'GL 310', 990, 1706],
+    ['Chakan', new Date(2012,1,6), 'GR 3400', 1243, 3315],
+    ['Panvel', new Date(2012,1,6), 'GT 1100', 1746, 2309],
+    ['Ghaziabad', new Date(2012,1,6), 'GL 310', 2990, 4406],
 
-    ['Chakan', new Date(2012,1,7), 'GR 3400', 4377, 1154],
-    ['Panvel', new Date(2012,1,7), 'GT 1100', 4216, 4653],
-    ['Ghaziabad', new Date(2012,1,7), 'GL 310', 1378, 3001],
+    ['Chakan', new Date(2012,1,7), 'GR 3400', 1377, 3454],
+    ['Panvel', new Date(2012,1,7), 'GT 1100', 1416, 2653],
+    ['Ghaziabad', new Date(2012,1,7), 'GL 310', 3378, 4501],
 
-    ['Chakan', new Date(2012,1,8), 'GR 3400', 1619, 609],
-    ['Panvel', new Date(2012,1,8), 'GT 1100', 3164, 3220],
-    ['Ghaziabad', new Date(2012,1,8), 'GL 310', 1191, 1602],
+    ['Chakan', new Date(2012,1,8), 'GR 3400', 1619, 3909],
+    ['Panvel', new Date(2012,1,8), 'GT 1100', 1164, 1220],
+    ['Ghaziabad', new Date(2012,1,8), 'GL 310', 3191, 4802],
 
-    ['Chakan', new Date(2012,1,9), 'GR 3400', 2259, 1082],
-    ['Panvel', new Date(2012,1,9), 'GT 1100', 683, 4254],
-    ['Ghaziabad', new Date(2012,1,9), 'GL 310', 2935, 4896],
+    ['Chakan', new Date(2012,1,9), 'GR 3400', 1859, 4082],
+    ['Panvel', new Date(2012,1,9), 'GT 1100', 1683, 3254],
+    ['Ghaziabad', new Date(2012,1,9), 'GL 310', 2935, 4196],
 
-    ['Chakan', new Date(2012,1,10), 'GR 3400', 4737, 2026],
-    ['Panvel', new Date(2012,1,10), 'GT 1100', 4664, 1040],
-    ['Ghaziabad', new Date(2012,1,10), 'GL 310', 1183, 4362]
+    ['Chakan', new Date(2012,1,10), 'GR 3400', 1737, 3826],
+    ['Panvel', new Date(2012,1,10), 'GT 1100', 2664, 5340],
+    ['Ghaziabad', new Date(2012,1,10), 'GL 310', 3183, 4662]
 
   ]);
 

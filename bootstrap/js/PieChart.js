@@ -66,6 +66,7 @@ function drawPieChart() {
     // Define a Pie chart
     var pie = new google.visualization.ChartWrapper({
       'chartType': 'PieChart',
+      'dataSourceUrl': 'https://docs.google.com/spreadsheet/ccc?key=0AvpfaQ-yYyX8dHZnVXNYaEo1Nm1kLXRCMTZDTUs1SFE#gid=0',
       'containerId': 'chart1',
       'options': {
         'width': 500,
