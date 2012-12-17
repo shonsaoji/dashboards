@@ -55,10 +55,12 @@
 		  </div>
 
 		  <div class="tab-pane fade" id="timeline">
-	        <div id="timeline-dashboard" style="width:968px; height:512px">
-	        	
-	        </div>
-		  </div>
+		        <div id="timeline-dashboard" style="width: 100%; height: 400px;"></div>
+		        <div style="margin-left:35px;">
+		            <input type="radio" checked="true" name="group" id="rb1" onclick="setPanSelect()">Select
+		            <input type="radio" name="group" id="rb2" onclick="setPanSelect()">Pan
+				</div>        
+  		  </div>
       
       	  <div class="tab-pane fade" id="filters">
 	        <div id="filter-dashboard" class="row">
@@ -107,6 +109,7 @@
     <script src="./bootstrap/js/MotionChart.js"></script>
     <script src="./bootstrap/js/TimeLine.js"></script>
     <script src="./bootstrap/js/Geo.js"></script>
+    <script src="./bootstrap/js/amcharts.js" type="text/javascript"></script>
     
     <script type="text/javascript" src="http://www.google.com/jsapi"></script>
     <script type="text/javascript">
