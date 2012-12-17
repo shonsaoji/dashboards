@@ -42,7 +42,7 @@
     </div>
     <div class="container">
       <ul class="nav nav-tabs">
-      	<li class="active"><a href="#geo" data-toggle="tab">Geo</a></li>
+      	<li class="active"><a href="#geo" onClick="drawGeoChart();" data-toggle="tab">Geo</a></li>
       	<li><a href="#timeline" onClick="drawTimeLineChart();" data-toggle="tab">TimeLine</a></li>
 	    <li><a href="#filters" onClick="drawPieChart();" data-toggle="tab">Filters</a></li>
 	    <li><a href="#motion" onClick="drawMotionChart();" data-toggle="tab">Motion</a></li>
@@ -51,7 +51,6 @@
       <div class="hero-unit tab-content">
 	      <div class="tab-pane fade in active" id="geo">
 	        <div id="geo-dashboard" class="row">
-	        	<h1>Geo</h1>
 		    </div>
 		  </div>
 
@@ -107,10 +106,12 @@
     <script src="./bootstrap/js/PieChart.js"></script>
     <script src="./bootstrap/js/MotionChart.js"></script>
     <script src="./bootstrap/js/TimeLine.js"></script>
+    <script src="./bootstrap/js/Geo.js"></script>
     
     <script type="text/javascript" src="http://www.google.com/jsapi"></script>
     <script type="text/javascript">
       google.load('visualization', '1.1', {packages: ['controls','motionchart','geochart','annotatedtimeline']});
+      google.setOnLoadCallback(drawGeoChart);
     </script>
     <script type="text/javascript">
     </script>
