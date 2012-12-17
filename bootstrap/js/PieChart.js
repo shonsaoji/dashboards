@@ -72,7 +72,6 @@ function drawPieChart() {
         'width': 500,
         'height': 400,
         'legend': 'none',
-        'title': 'Inventory Details',
         'chartArea': {'left': '170px', 'top': 30, 'width': '80%', 'height': '75%'},
         'pieSliceText': 'label',
         'backgroundColor': '#f5f5f5',

@@ -96,8 +96,8 @@ function drawTimeLineChart() {
 
     // GRAPH
     var graph = new AmCharts.AmGraph();
-    graph.title = "red line";
-    graph.valueField = "visits";
+    graph.title = "Stock in warehouse";
+    graph.valueField = "quantity";
     graph.bullet = "round";
     graph.bulletBorderColor = "#FFFFFF";
     graph.bulletBorderThickness = 2;
@@ -131,11 +131,11 @@ function generateChartData() {
         var newDate = new Date(firstDate);
         newDate.setDate(newDate.getDate() + i);
 
-        var visits = Math.round(Math.random() * 40) - 20;
+        var quantity = Math.round(Math.random() * 40);
 
         chartData.push({
             date: newDate,
-            visits: visits
+            quantity: quantity
         });
     }
 }

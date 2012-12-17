@@ -50,19 +50,23 @@
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit tab-content">
 	      <div class="tab-pane fade in active" id="geo">
+	      <h2>Sales across warehouses in India</h2>
 	        <div id="geo-dashboard" class="row">
+	        	
 		    </div>
 		  </div>
 
 		  <div class="tab-pane fade" id="timeline">
-		        <div id="timeline-dashboard" style="width: 100%; height: 400px;"></div>
-		        <div style="margin-left:35px;">
-		            <input type="radio" checked="true" name="group" id="rb1" onclick="setPanSelect()">Select
-		            <input type="radio" name="group" id="rb2" onclick="setPanSelect()">Pan
-				</div>        
+		  <h2>Quantity in stock for a warehouse</h2>
+	        <div id="timeline-dashboard" style="width: 100%; height: 400px;"></div>
+	        <div style="margin-left:35px;">
+	            <input type="radio" checked="true" name="group" id="rb1" onclick="setPanSelect()">Select
+	            <input type="radio" name="group" id="rb2" onclick="setPanSelect()">Pan
+			</div>        
   		  </div>
       
       	  <div class="tab-pane fade" id="filters">
+      	  <h2>Inventory Details</h2>
 	        <div id="filter-dashboard" class="row">
 	        	<div class='span'>
 	        	    <div id="chart1" class='well'></div>
@@ -77,8 +81,8 @@
 		    </div>
 		  </div>
 		  <div class="tab-pane fade" id="motion">
+		  <h2>Incoming / Outgoing stock per warehouse</h2>
 	        <div id="motion-dashboard" class="row">
-	        	
 	        </div>
 		  </div>
 	  </div>	  
