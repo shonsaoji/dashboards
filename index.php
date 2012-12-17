@@ -57,7 +57,7 @@
 		  </div>
 
 		  <div class="tab-pane fade" id="timeline">
-		  <h2>Quantity in stock for a warehouse</h2>
+		  <h2>Sales (in Lacs)  for a warehouse</h2>
 	        <div id="timeline-dashboard" style="width: 100%; height: 400px;"></div>
 	        <div style="margin-left:35px;">
 	            <input type="radio" checked="true" name="group" id="rb1" onclick="setPanSelect()">Select
