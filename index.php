@@ -90,7 +90,7 @@
 
       <footer>
         <div class='row-fluid'>
-        	<div class='span2'><p>&copy; Company 2012</p></div>
+        	<div class='span2'><p>&copy; Moolcode Company 2012</p></div>
         </div>
       </footer>
 	  </div>
