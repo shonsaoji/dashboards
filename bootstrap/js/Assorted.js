@@ -129,11 +129,11 @@ function drawColLine() {
         expenses: 22.8
     }, {
         year: 2007,
-        income: 30.1,
+        income: 23.1,
         expenses: 23.9
     }, {
         year: 2008,
-        income: 29.5,
+        income: 26.5,
         expenses: 25.1
     }, {
         year: 2009,

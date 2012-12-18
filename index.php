@@ -92,8 +92,8 @@
 	        	<div id='amcharts-bar' class="span" style="width:475px; height:275px;"></div>
 	        </div>
 	        <div class="row">
-	        	<div id='amcharts-colLine' class="span" style="width:475px; height:275px;"></div>
-	        	<div id='amcharts-bubbleZoom' class="span" style="width:475px; height:275px;"></div>
+	        	<div id='amcharts-colLine' class="span" style="width:475px; height:375px;"></div>
+	        	<div id='amcharts-bubbleZoom' class="span" style="width:500px; height:375px;"></div>
 	        </div>
 	        </div>
 		  
