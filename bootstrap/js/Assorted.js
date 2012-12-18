@@ -1,9 +1,9 @@
-function drawAssortedChart() {
+$("#assorted-tab").on('shown', function drawAssortedChart() {
 	drawDonut();
 	drawBar();
 	drawColLine();
 	drawBubbleChart();
-}
+});
 
 function drawDonut() {
     var chart;

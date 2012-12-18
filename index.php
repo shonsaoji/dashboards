@@ -42,11 +42,11 @@
     </div>
     <div class="container">
       <ul class="nav nav-tabs">
-      	<li class="active"><a href="#geo" onClick="drawGeoChart();" data-toggle="tab">Geo</a></li>
+      	<li class="active"><a id="geo-tab" href="#geo" onClick="drawGeoChart();" data-toggle="tab">Geo</a></li>
       	<li><a href="#timeline" onClick="drawTimeLineChart();" data-toggle="tab">TimeLine</a></li>
-	    <li><a href="#filters" onClick="drawPieChart();" data-toggle="tab">Filters</a></li>
-	    <li><a href="#motion" onClick="drawMotionChart();" data-toggle="tab">Motion</a></li>
-	    <li><a href="#assorted" onClick="drawAssortedChart();" data-toggle="tab">Dashboard</a></li>
+	    <li><a id="filters-tab" href="#filters" onClick="drawPieChart();" data-toggle="tab">Filters</a></li>
+	    <li><a id="motion-tab" href="#motion" onClick="drawMotionChart();" data-toggle="tab">Motion</a></li>
+	    <li><a id="assorted-tab" href="#assorted" data-toggle="tab">Dashboard</a></li>
 	  </ul>
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit tab-content">
