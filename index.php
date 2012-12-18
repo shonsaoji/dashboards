@@ -46,6 +46,7 @@
       	<li><a href="#timeline" onClick="drawTimeLineChart();" data-toggle="tab">TimeLine</a></li>
 	    <li><a href="#filters" onClick="drawPieChart();" data-toggle="tab">Filters</a></li>
 	    <li><a href="#motion" onClick="drawMotionChart();" data-toggle="tab">Motion</a></li>
+	    <li><a href="#assorted" onClick="drawAssortedChart();" data-toggle="tab">Dashboard</a></li>
 	  </ul>
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit tab-content">
@@ -85,7 +86,18 @@
 	        <div id="motion-dashboard" class="row">
 	        </div>
 		  </div>
-	  </div>	  
+		  <div class="tab-pane fade" id="assorted">
+		    <div class="row">
+	        	<div id='amcharts-donut' class="span pull-left" style="width:475px; height:275px;"></div>
+	        	<div id='amcharts-bar' class="span"  style="width:475px; height:275px;"></div>
+	        	<div id='amcharts-column' class="span"><h1>Hello</h1></div>
+	        </div>
+	        <div class="row">
+	        	<div id='amcharts-bubbleZoom' class="span"><h1>Hello</h1></div>
+	        </div>
+	        </div>
+		  
+		  </div>	  
       <hr>
 
       <footer>
@@ -114,6 +126,7 @@
     <script src="./bootstrap/js/TimeLine.js"></script>
     <script src="./bootstrap/js/Geo.js"></script>
     <script src="./bootstrap/js/amcharts.js" type="text/javascript"></script>
+    <script src="./bootstrap/js/Assorted.js"></script>
     
     <script type="text/javascript" src="http://www.google.com/jsapi"></script>
     <script type="text/javascript">
