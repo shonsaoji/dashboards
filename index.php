@@ -89,11 +89,11 @@
 		  <div class="tab-pane fade" id="assorted">
 		    <div class="row">
 	        	<div id='amcharts-donut' class="span pull-left" style="width:475px; height:275px;"></div>
-	        	<div id='amcharts-bar' class="span"  style="width:475px; height:275px;"></div>
-	        	<div id='amcharts-column' class="span"><h1>Hello</h1></div>
+	        	<div id='amcharts-bar' class="span" style="width:475px; height:275px;"></div>
 	        </div>
 	        <div class="row">
-	        	<div id='amcharts-bubbleZoom' class="span"><h1>Hello</h1></div>
+	        	<div id='amcharts-colLine' class="span" style="width:475px; height:275px;"></div>
+	        	<div id='amcharts-bubbleZoom' class="span" style="width:475px; height:275px;"></div>
 	        </div>
 	        </div>
 		  
